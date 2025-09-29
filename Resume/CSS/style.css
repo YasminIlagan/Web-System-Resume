@@ -1,0 +1,143 @@
+/* === Global === */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #121212;
+    color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+}
+
+/* === Container === */
+.container {
+    width: 950px;
+    margin: auto;
+    background: #1e1e1e;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.6);
+    display: flex;
+    gap: 20px;
+}
+
+/* === Left Column === */
+.left {
+    width: 35%;
+    background: #181818;
+    padding: 20px;
+    border-right: 2px solid #333;
+    text-align: center;
+    border-radius: 10px;
+}
+.left img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 4px solid #4CAF50;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+.left h2 {
+    color: #4CAF50;
+    font-size: 18px;
+    margin-top: 20px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 6px;
+}
+.left p, .left li {
+    font-size: 14px;
+    color: #ddd;
+    text-align: left;
+}
+.left ul {
+    margin-left: 20px;
+    padding: 0;
+}
+
+/* === Right Column === */
+.right {
+    width: 65%;
+    padding: 20px 30px;
+}
+.right h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    margin-bottom: 5px;
+    color: #fff;
+}
+.right p.course {
+    font-size: 16px;
+    color: #bbb;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+.right h2 {
+    color: #4CAF50;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+.right h2:hover {
+    color: #81c784;
+}
+.right p, .right li {
+    font-size: 15px;
+    color: #ddd;
+}
+.right ul {
+    margin-left: 20px;
+    padding: 0;
+}
+
+/* === Collapsible Sections === */
+.hidden {
+    display: none;
+}
+ul {
+    list-style: square;
+}
+ul li {
+    margin-bottom: 6px;
+}
+
+/* === Buttons (Download / Logout) === */
+.btn-section {
+    margin-top: 25px;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 16px;
+    margin-right: 12px;
+    border-radius: 8px;
+    background: #4CAF50;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.btn:hover {
+    background: #66bb6a;
+    transform: translateY(-2px);
+}
+.btn.danger {
+    background: #e53935;
+}
+.btn.danger:hover {
+    background: #ef5350;
+}
+
+/* === Links === */
+a {
+    color: #81c784;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+/* Justify text for objective */
+.justify {
+    text-align: justify;
+}
